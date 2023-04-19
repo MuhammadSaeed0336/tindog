@@ -1,0 +1,150 @@
+    /* main things */
+body{
+    font-family: montserrat;
+}
+
+h1{
+    font-family: "montserrat-black";
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: "montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat-bold";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+
+/* navbar section */
+.navbar{
+    padding: 0 0 2.5rem;
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Montserrat-light;
+}
+
+
+.Download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.title-img{
+    width: 20%;
+    margin-left: 5%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+/* feature section */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+}
+.bi-size{
+    font-size: 3rem;
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.bi-size:hover{
+    color: #ff4c68;
+}
+
+/* testimonials section */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.press-col{
+    padding: 3% 2%;
+}
+
+/* price section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+/* cta section */
+#cta{
+    background-color: #ef8172;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-head{
+    font-family: "montserrat-black";
+    font-size: 3.5rem;
+}
+
+/* footer section */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 15px 10px;
+}
+
+
+/* for mob screen */
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position:static;
+        transform: rotate(0);
+    }
+}
